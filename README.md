@@ -1,8 +1,8 @@
 # Shunting-Model-Based-Path-Planning-Algorithm-Accelerator-Using-FPGA
 There are three folders in this project. They are:
- 1. HLS
- 2. System Design Source File
- 3. Software Driver
+ - HLS
+ - System Design Source File
+ - Software Driver
  
 # HLS
 This folder contains three files; these files are used for functional check and generate IP-Core using Vivado High-Level Syntheses software.
