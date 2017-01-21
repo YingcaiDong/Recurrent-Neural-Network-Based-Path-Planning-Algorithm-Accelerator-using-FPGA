@@ -24,3 +24,6 @@ Then the input will go through the FPGA and then give you the output which you c
 The output is also a 32\*32 array. Which contains digits 4, 0, 9, 1 and 7.
   - The first four digits represent the same meanings as mentions before.
   - 7 stands for the trajectory of the robot traveling from the start point to the target.
+
+# Other
+Any other project details can be found in the 'Porject Documentation.pdf'
