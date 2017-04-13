@@ -65,7 +65,7 @@ float ExternalInput(float m){
  */
 int boundary_check(int x, int y){
 #pragma HLS INLINE
-    if (x < 0 || x > (ELEMENTS-1) || y < 0 || y > (ELEMENTS-1)) {
+    if (x < 0 || x > (LEN-1) || y < 0 || y > (LEN-1)) {
         return 0;
     } else {
         return 1;
