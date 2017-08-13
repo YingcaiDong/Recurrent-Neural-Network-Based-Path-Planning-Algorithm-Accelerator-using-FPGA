@@ -1,4 +1,13 @@
-# Shunting-Model-Based-Path-Planning-Algorithm-Accelerator-Using-FPGA
+# Recurrent Neural Network Based Path Planning Algorithm Accelerator using FPGA
+
+- This prototype is written in C++ can simulate the robot’s movement in a workspace. The robot's moving trajectory is based on the collision-free path planning algorithm.
+- The software allowed the user to simulate different workspace scenarios, which contain different obstacle distributions. 
+-	To test this hardware accelerator, I compared the speed between non-hardware-optimized algorithm running time and optimized running time. The comparison’s result was ten times the speed acceleration on FPGA.
+-	Using multiple methods to optimize the hardware acceleration (HLS perspective: apply different solutions and compare the data output rate. System perspective: ACP port, AXI4_Stream, DMA).
+-	Development tools: Vivado HLS, Vivado, Vivado SDK.
+-	Target Hardware: Zynq xc7z020clg484-1(ZedBoard).
+
+
 There are three folders in this project. They are:
  - HLS
  - System Design Source File
